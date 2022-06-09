@@ -1,2 +1,2 @@
 #Name 	FB	msp	IBD
-TESTE	/home/thiago/PycharmProjects/LocalAncestryIBD/DataExample/Freeze1_continental_local_ancestry_chr21.fb.tsv	/home/thiago/PycharmProjects/LocalAncestryIBD/DataExample/Freeze1_continental_local_ancestry_chr21.msp.tsv	/home/thiago/PycharmProjects/LocalAncestryIBD/DataExample/hapibd_21.ibd.gz
+TESTE	Local_ancestry_chr22.fb.tsv	Local_ancestry_chr22.msp.tsv	hapibd_21.ibd.gz
