@@ -5,9 +5,7 @@ with the start and end information for the CRF points of the FB file, you can ru
 
 For chromosome 1:
 
-script=\$path/creating_intervals_rfmixoutputs.pl
+for i in 1; do awk '{print $1"\t"\$2"\t"\$3"\t"\$4}' FILE_chr${i}.fb.tsv  | sed 1,2d >  fb_chr${i}.txt ; done
 
-for i in 1; do awk '{print \$1"\t"\\$2"\t"\\$3"\t"\\$4}' FILE_chr${i}.fb.tsv  | sed 1,2d >  fb_chr${i}.txt ; done
-
-for i in 1; do perl $script -bim genmap_chr${i}.map -index fb_chr${i}.txt -out Intervals_chr${i}.txt ; done
+for i in 1; do perl creating_intervals_rfmixoutputs.pl -bim genmap_chr\$\{i\}.map -index fb_chr${i}.txt -out Intervals_chr${i}.txt ; done
 
