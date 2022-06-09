@@ -15,7 +15,7 @@ INPUTS
     #Name	FB	msp	IBD  
     OUTPUTNAME	FILE.fb.tsv	FILE.msp.tsv	COMPRESSED_IBDFILE  
     
-    * FB.tsv and MSP.tsv correspond to probabilities and ancestry designation files. This GAfIS works fine with XGMIX or GNOMIX outputs. If you are using RFMIX ver2 outputs the MSP file requires some manipulation (please check the RFMIX_outputs_editing FOLDER)
+    * FB.tsv and MSP.tsv correspond to probabilities and ancestry designation files. This GAfIS works fine with XGMIX or GNOMIX outputs. If you are using RFMIX ver2 outputs the MSP file requires some manipulation (please check the <a href=https://github.com/umb-oconnorgroup/GLAD_DemographicAnalysis/tree/Ancestry-Specific_IBD/Ancestry-Specific_IBD/RFMIX_outputs_editing">RFMIX_outputs_editing</a> FOLDER)
 
 
 
