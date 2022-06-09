@@ -1,5 +1,14 @@
---RUNNING LOCAL ANCESTRY IBD ANALYSIS--
+**RUNNING LOCAL ANCESTRY IBD ANALYSIS**
+From the multi-way admixed origin of Latin American populations, IBD and Local ancestry methods provide an opportunity to test the relationships of European,
+African, and Indigenous American related IBD segments along the Americas.
+We implemented a python algorithm called GAfIS ( that stands for “Getting Ancestry For IBD Segments” ) that uses RFMIX outputs to identify local ancestry labels for an IBD segment shared by a pair of individuals under a certain probability threshold.
+As a probability threshold for local ancestry inferences in GAfIS, we set 90% for a genomic region being of the K ancestry. For this analysis, we included our processed IBD segments to reduce the proportion of false positives. Moreover, if an IBD segment contained several ancestries, we split the segment into pieces corresponding to independent ancestries for each pair of individuals.
 
+After ancestry identification of the IBD segments, we filter out ancestry specific-IBD segments based on the following criteria:
+-One of the ancestry labels was unknown for having a local ancestry probability lower than 90%
+-Both ancestry labels of the IBD segment shared by a pair of individuals were different.
+
+After those filters, we kept individuals with demographic information and we calculated an ancestry specific IBD score (asIBD score) within and across the 45 Latin American groups. Our asIBD score is defined in following equations
 
 
 
