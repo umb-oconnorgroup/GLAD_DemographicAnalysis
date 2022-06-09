@@ -20,3 +20,4 @@ After that you will have an output with the following format:
                                             chr16	1480848	1481300	3.54038	3.5419204
 
 
+Important: Check if the header correspond to the correct ancestry designation of your file. If not, you can edit this by modifing line 34 in the perl script
