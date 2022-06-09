@@ -11,12 +11,12 @@ for i in 1\; do perl creating_intervals_rfmixoutputs.pl \-bim genmap_chr$\\$i\$.
 
 After that you will have an output with the following format:
 
-                                                #Subpopulation order/codes: AFR=0	EAS=1	EUR=2	NAT=3 
-                                                #chm	spos	epos	sgpos	egpos
-                                                chr16	310888	1463573	0.33401	3.4850538
-                                                chr16	1464324	1477086	3.48577	3.526887
-                                                chr16	1477272	1480359	3.52768	3.5387049
-                                                chr16	1480391	1480839	3.53881	3.5403451
-                                                chr16	1480848	1481300	3.54038	3.5419204
+                                            #Subpopulation order/codes: AFR=0	EAS=1	EUR=2	NAT=3 
+                                            #chm	spos	epos	sgpos	egpos
+                                            chr16	310888	1463573	0.33401	3.4850538
+                                            chr16	1464324	1477086	3.48577	3.526887
+                                            chr16	1477272	1480359	3.52768	3.5387049
+                                            chr16	1480391	1480839	3.53881	3.5403451
+                                            chr16	1480848	1481300	3.54038	3.5419204
 
 
