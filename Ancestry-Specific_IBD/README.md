@@ -32,22 +32,22 @@ After ancestry identification of the IBD segments, we filter out ancestry specif
 
 **Step 1**  
   
-        perl RemovingUnknown.pl -input \<prefix\>_out -output \<output1\>  
+        perl RemovingUnknown.pl -input <prefix>_out -output <output1>  
   
 \<prefix\> : Correspond to the OUTPUTNAME from GAfIS followed by "_out"
 
 **Step 2**  
   
-        perl Matchingind_demoibd.pl -demo \<demographic file\>  -ibd \<output1\>.Unknownremoved.txt -output \<output1\>  
+        perl Matchingind_demoibd.pl -demo <demographic file>  -ibd <output1>.Unknownremoved.txt -output <output1>  
           
  demo file: Demographic file or list of individuals to include. The script will considered just the first column
  
 **Step 3**  
   
-        perl Extract_same_ancestryibd.pl -ibd \<output1\>.Demofiltered.txt -output \<output1\>  
+        perl Extract_same_ancestryibd.pl -ibd <output1>.Demofiltered.txt -output <output1>  
 **Step 4**  
   
-        perl Average_IBD_estimator.pl -ibd \<output1\>.same_ancestry_filtered.txt -output \<output1\>  
+        perl Average_IBD_estimator.pl -ibd <output1>.same_ancestry_filtered.txt -output <output1>  
 
 Generating a list of outputs for each chromosome of the later script and merging all chrs  
   
