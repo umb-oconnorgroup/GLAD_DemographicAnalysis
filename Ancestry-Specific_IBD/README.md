@@ -1,5 +1,9 @@
 **RUNNING LOCAL ANCESTRY IBD ANALYSIS**  
 
+Contributors:  
+-Thiago Peixoto Leal , Lerner Research Institute, Genomic Medicine, Cleveland Clinic, OH (e-mail : PEIXOTT@ccf.org or thpeixotol@hotmail.com)  
+-Victor Borda  
+  
 From the multi-way admixed origin of Latin American populations, IBD and Local ancestry methods provide an opportunity to test the relationships of European,
 African, and Indigenous American related IBD segments along the Americas.
 We implemented a python algorithm called GAfIS ( that stands for “Getting Ancestry For IBD Segments” ) that uses RFMIX outputs to identify local ancestry labels for an IBD segment shared by a pair of individuals under a certain probability threshold.
