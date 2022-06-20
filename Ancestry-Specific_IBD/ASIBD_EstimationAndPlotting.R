@@ -79,7 +79,7 @@ for (i in 1:nrow(WIBD)){
       column3<-paste0("AVG_",anc)
       if(WIBD[i,counting] >= MinimunCount){  
         AncK1xAncK2<-country1values[anc]*country2values[anc]
-        weighted.sharing[i,column2]=WIBD[i,column1]/(Nsame*AncK1xAncK2*MaximumCallableIBD)
+        weighted.sharing[i,column2]=WIBD[i,column1]/(N1xN2*AncK1xAncK2*MaximumCallableIBD)
         weighted.sharing[i,column3]<-country1values[anc]
       }else{
         weighted.sharing[i,column2]=0
