@@ -42,7 +42,7 @@ foreach $j(0..$#fbindex){
 
 	}else{
 	@line_fb=split("\t",@fbindex[$j]);
-	$end=@line_fb[3]+4;
+	$end=@line_fb[3]+5;
 	print OT "@line_fb[0]\t@line_fb[1]\t$hash_P{$end}\t@line_fb[2]\t$hash_G{$end}\n";
 	}
 
